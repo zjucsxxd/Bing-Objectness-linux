@@ -60,4 +60,11 @@ path-of-self-defined/
 
 4) There are many memory leak found which caused by Opencv.
 
-Email:xuxiduo@zju.edu.cn
+5) advice
+  if you want to train the mode with big data, please build it under 64bit Operting system.
+
+  Dataset URL: http://mmcheng.net/bingreadme/
+  FAQs URL:http://mmcheng.net/bing/
+
+6) Email
+xuxiduo@zju.edu.cn
