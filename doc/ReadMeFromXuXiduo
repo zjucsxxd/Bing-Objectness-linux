@@ -1,0 +1,40 @@
+Bing Objectness
+===============
+
+1 project building***************************************************************
+
+	  This project is reconstrut from Kyle's linux Version. To build the project,
+	you need to install all the packages as bellow:
+	1) OpenCV >=2.4.8
+	2) Cmake  >=2.8
+	3) make
+	4) build-enssential(g++>=4.7; gcc>=4.7)
+
+
+2 Resources
+1) data
+	properly from VOC website, by which i mean that you need to download all files from:
+	http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2007/VOCtest_06-Nov-2007.tar
+	http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2007/VOCtrainval_06-Nov-2007.tar
+    
+
+2) paper
+	 BING objectness linux version library for efficient objectness proposal estimator following 
+ the CVPR 2014 paper BING, please consider to cite and refer to this paper.
+
+	@inproceedings{BingObj2014,
+	title={{BING}: Binarized Normed Gradients for Objectness Estimation at 300fps},
+	author={Ming-Ming Cheng and Ziming Zhang and Wen-Yan Lin and Philip H. S. Torr},
+	booktitle={IEEE CVPR},
+	year={2014},
+	}
+
+3) Ｏriginal autor
+	Author: Ming-Ming Cheng(程明明) removethisifyouarehuman-cmm.thu@gmail.com
+	Linux Author: Shuai Zheng (Kyle,郑帅) removethisifyouarehuman-szhengcvpr@gmail.com
+	Please find more information from http://kylezheng.org/objectness/
+	Date: 19, February 
+
+
+4) Email
+	xuxiduo@zju.edu.cn

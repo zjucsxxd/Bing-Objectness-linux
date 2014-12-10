@@ -1,0 +1,17 @@
+#xuxiduo@zju.edu.cn
+AUX_SOURCE_DIRECTORY(. LINEAR_SRC_LIST)
+#FOREACH(F ${LINEAR_SRC_LIST})
+#	MESSAGE("Find : " ${F})
+#ENDFOREACH(F)
+ADD_LIBRARY(linear ${LINEAR_SRC_LIST})
+
+AUX_SOURCE_DIRECTORY(./blas/ BLAS_SRC_LIST)
+#FOREACH(F ${BLAS_SRC_LIST})
+#	MESSAGE("Find : " ${F})
+#ENDFOREACH(F)
+ADD_LIBRARY(blas ${BLAS_SRC_LIST})
+
+INSTALL(TARGETS blas DESTINATION lib)
+INSTALL(TARGETS linear DESTINATION lib)
+INSTALL(FILES linear.h  tron.h DESTINATION include/bing/LibLinear)
+INSTALL(FILES ./blas/blas.h  ./blas/blasp.h DESTINATION include/bing/LibLinear/blas)
